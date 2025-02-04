@@ -1,0 +1,83 @@
+.splash {
+  background: linear-gradient(to bottom left, #323264 12%, #643e72 87%);
+}
+
+.card-icon {
+  font-size: 64px;
+  background: linear-gradient(to bottom, #f0145a, #ef8080);
+  -webkit-background-clip: text;
+  color: transparent;
+  border: none;
+  border-radius: 24px;
+  margin: 14px;
+  background-color: #ffffff;
+}
+
+.service-title-link {
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+.frame-title {
+  padding-top: 30px;
+}
+
+.service-title-link {
+  text-decoration: none;
+  color: #24a3ff;
+}
+
+.service-title {
+  background: linear-gradient(to right, #f0145a, #ef8080);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.card-icon {
+  border: none;
+  border-radius: 24px;
+  padding: 14px;
+  background-color: #ffffff;
+}
+
+.card-border {
+  border: none;
+  border-radius: 24px;
+  padding: 14px;
+  background-color: #ffffff;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Montserrat-Regular";
+}
+
+.card-title {
+  color: #24A3FF;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+
+
+/*# sourceMappingURL=splash.css.map */

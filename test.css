@@ -1,0 +1,13 @@
+@import url(sass/_fonts-icon-service.scss);
+
+
+.card-icon {
+	font-size: 64px;
+	background: linear-gradient(to bottom, $color-card-1, $color-card-2);
+	-webkit-background-clip: text;
+	color: transparent;
+	border: none;
+	border-radius: 24px;
+	margin: 14px;
+	background-color: #ffffff;
+}

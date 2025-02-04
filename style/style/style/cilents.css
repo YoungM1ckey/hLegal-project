@@ -1,0 +1,72 @@
+.clients-cards {
+  display: grid;
+  grid-template-columns: 375px;
+}
+
+.clients-card {
+  align-content: center;
+  text-align: center;
+  height: 120px;
+}
+
+.clients-card:nth-child(1) {
+  background-color: #1c4280;
+}
+
+.clients-card:nth-child(2) {
+  background-color: #143646;
+}
+
+.clients-card:nth-child(3) {
+  background-color: #f48b30;
+}
+
+.clients-card:nth-child(4) {
+  background-color: #9e4dc3;
+}
+
+.clients-card:nth-child(5) {
+  background-color: #fd9339;
+}
+
+.clients-card:nth-child(6) {
+  background-color: #e2e2e4;
+}
+
+.clients-card:nth-child(7) {
+  background-color: #c71c36;
+}
+
+.clients-card:nth-child(8) {
+  background-color: #dcf3f9;
+}
+
+.clients-card:nth-child(9) {
+  background-color: #eaeaea;
+}
+
+.clients-card:nth-child(10) {
+  background-color: #282240;
+}
+
+.clients-card:nth-child(11) {
+  background-color: #1d4568;
+}
+
+.clients-card:nth-child(12) {
+  background-color: #000000;
+}
+
+.clients-card:nth-child(n+7) {
+  display: none;
+}
+
+.card-border {
+  border: none;
+  border-radius: 24px;
+  background-color: #ffffff;
+}
+
+
+
+/*# sourceMappingURL=cilents.css.map */
