@@ -39,6 +39,8 @@
 .navigation-mobile {
   border: none;
   background: none;
+  padding: 0;
+  display: flex;
 }
 .navigation-mobile:active {
   border-radius: 8px;
@@ -91,7 +93,7 @@
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: start;
   margin-top: 15px;
   gap: 4px;
 }
@@ -267,11 +269,19 @@
 
 .close__menu__nav__mobl {
   border: none;
+  display: flex;
   background: none;
+  transition-duration: 0.4s;
+  padding: 0;
+}
+.close__menu__nav__mobl:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
 }
 
 .btn-close-nav {
   margin-left: auto;
+  margin-right: 12px;
   border-radius: 12px 12px 0 0;
 }
 
