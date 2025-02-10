@@ -3,6 +3,10 @@
   //margin-bottom: 30px;
 }
 
+.facebook-icon {
+  color: #24A3FF;
+}
+
 .service-title-link {
   display: inline-flex;
   text-transform: uppercase;
@@ -102,11 +106,15 @@
 
 @media (min-width: 768px) {
   .publication__cards {
+    padding-bottom: 30px;
     grid-template-columns: repeat(2, 1fr);
     //grid-template-rows: ;
     .publication__card:nth-child(3) {
       grid-column: 1/-1;
     }
+  }
+  .publication {
+
   }
 }
 
@@ -119,5 +127,6 @@
       grid-column: auto;
     }
   }
+
 
 }
